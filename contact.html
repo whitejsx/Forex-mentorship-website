@@ -59,9 +59,10 @@
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="service.html" class="nav-item nav-link">Services</a>
                         <a href="testimonial.html" class="nav-item nav-link">Testimonials</a>
+                        <a href="signup.html" class="nav-item nav-link ">Sign up</a>
                         <a href="about.html" class="nav-item nav-link">About Us</a>
                         <a href="contact.html" class="nav-item nav-link active">Contact Us</a>
-                        <a href="signup.html" class="nav-item nav-link active">Sign up</a>
+                       
 
             </nav>
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
@@ -114,34 +115,34 @@
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <form >
+                            <form   action="https://formspree.io/f/xnqknbal"  method="POST" >
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text"  class="form-control" id="name" placeholder="Your Name">
+                                            <input type="text"  class="form-control" id="name" name="Your Name">
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email"  class="form-control" id="email" placeholder="Your Email">
+                                            <input type="email"  class="form-control" id="email" name="Your Email">
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text"  class="form-control" id="subject" placeholder="Subject">
+                                            <input type="text"  class="form-control" id="subject" name="Subject">
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here"  id="message" style="height: 150px"></textarea>
+                                            <textarea class="form-control" name="Leave a message here"  id="message" style="height: 150px"></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <a href="https://api.whatsapp.com/send/?phone=2349025958235&text&type=phone_number&app_absent=0" class="btn btn-primary w-100 py-3" type="submit" >Send Message</a>
+                                        <button class="btn btn-primary w-100 py-3" type="submit" >Send Message</button>
                                     </div>
                                 </div>
                             </form>
