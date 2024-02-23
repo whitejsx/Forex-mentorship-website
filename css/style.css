@@ -150,6 +150,43 @@
         background: var(--dark) !important;
     }
 }
+/*** risk management bg ***/
+.risk-management {
+    background: linear-gradient(rgba(2, 8, 27, 0.692), rgba(2, 11, 34, 0.89)), url(../img/risk_management_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*** ***/
+
+/*** investment services bg ***/
+.Investment-Services {
+    background: linear-gradient(rgba(2, 8, 27, 0.39), rgba(2, 11, 34, 0.527)), url(../img/investment_bgg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+
+    }
+.investment_bgg{
+    background: linear-gradient(rgba(2, 8, 27, 0.39), rgba(2, 11, 34, 0.527)), url(../img/investment_bgg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+
+    }
+/*** ***/
+
+
+
+
+.metorship{
+    background: linear-gradient(rgba(2, 8, 27, 0.692), rgba(2, 11, 34, 0.89)), url(../img/Mentorship_Background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 /*** Hero Header ***/
@@ -226,6 +263,25 @@
 .service-item:hover * {
     color: var(--light) !important;
 }
+
+.mentorship-item{
+    box-shadow: 0 0 45px rgba(2, 2, 2, 0.384);
+    transition: .5s;
+}
+
+.mentorship-item:hover {
+    background: var(--primary);
+}
+
+
+.mentorship-item * {
+    transition: .5s;
+}
+
+.mentorship-item:hover * {
+    color: var(--light) !important;
+}
+
 
 
 /*** Food Menu ***/
@@ -478,4 +534,8 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.mentorship{
+    border-radius:4%;
 }
