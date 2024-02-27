@@ -152,7 +152,7 @@
 }
 /*** risk management bg ***/
 .risk-management {
-    background: linear-gradient(rgba(2, 8, 27, 0.692), rgba(2, 11, 34, 0.89)), url(../img/risk_management_bg.png);
+    background: linear-gradient(rgba(2, 8, 27, 0.374), rgba(2, 11, 34, 0.653)), url(../img/risk_management_bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
